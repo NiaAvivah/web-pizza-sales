@@ -1,0 +1,80 @@
+body {
+  background-color: #fcefec;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+}
+
+section p {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #92a8d1;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.logo {
+  font-family: RoadTest;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.active {
+  color: #4670ca;
+  font-weight: bold;
+}
+
+footer p {
+  font-family: calibri;
+  color: #fcefec;
+  font-size: 15px;
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  bottom: 10px;
+}
+
+footer {
+  height: 70px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e77577;
+}
